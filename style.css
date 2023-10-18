@@ -1,0 +1,285 @@
+a {
+ text-decoration:powderblue;
+ color: #4c2719;
+ font-size: 20px;
+ /* #d4d6b9--beige */
+ /* #119da4--blue */
+ /* #c83e4d--red */
+ /* #4c2719--brown */
+ /* #2a6041--green */
+}
+
+.glossary {
+  color:#c83e4d;
+}
+
+.news {
+  color:#4c2719;
+
+}
+
+.vocab {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav1 {
+  background-color: white;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+button {
+  background-color:#d3eef0;
+  border-color: transparent;
+ 
+  
+}
+
+.nav {
+  background-color:#d3eef0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sources {
+  display: inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  object-fit: cover;
+ ;
+}
+
+img {
+ height: 200px;
+ width: 250px;
+ background-color: white;
+ margin-right: auto;
+ margin-left: auto;
+ 
+ }
+
+img { 
+  flex-direction: row;
+  justify-content: space-evenly;
+  opacity:1 ;
+}
+
+.news {  flex-direction:row;
+        justify-content:center;
+        margin-left: auto;
+        margin-right:auto;
+
+}
+
+.oneimage:hover{
+  transform:scale(1.05);
+  opacity: 0.5;
+}
+ 
+
+.newspage:hover{
+  transform:scale(1.05);
+  opacity: 0.5;
+
+} 
+
+h2 {
+  text-align: center;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.title.letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.homepage{
+  text-align: center;
+  line-height: 1em;
+  font-size: 1.2em;
+  background-color: #d3eef0;
+  padding: 5px;
+}
+
+
+.contactinfo {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.submit-btn {
+ border-color:black;
+ border-width: 0.5px;
+ display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.homeinfo {
+  font-family: 'STIX Two Math', serif;
+  text-align: justify; 
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+
+
+.tip {
+  border: 0.9px solid black;
+ padding: 8px;
+ padding-top: 5px;
+ background-color: beige;
+} 
+
+.tips {
+  color:#c83e4d
+}
+
+.forms {
+  border:50px solid beige;
+  padding-left: 20px;
+}
+
+/* code for news source */
+
+/* div.sources {
+    vertical-align: top;
+    justify-content: space-evenly;
+    display: inline-table;
+    text-align: center;
+    width: 250px;
+}
+.newspage {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+}
+
+.caption {
+   font-family: 'STIX Two Math', serif;
+    display: block;
+} */
+
+.sources {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newspage {
+  min-width: 250px;
+  max-width: 250px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin-bottom: 1rem;
+}
+
+.newswrap {
+  min-height: 100vh;
+  padding: 2rem 0;
+  background: white;
+  color: black;
+  font-family: 'STIX Two Math', serif;
+  text-align: center;
+}
+.newspage figure {
+  padding: 0;
+  margin: 0;
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.newswrap {
+  object-fit: cover; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+/* Topics */
+
+.topics{
+  margin-left: 15px;
+  margin-right: 15px;
+color: #4c2719;
+}
+
+/* Images on home page */
+
+.imageshome {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.oneimage {
+  min-width: 250px;
+  max-width: 250px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin-bottom: 0;
+}
+
+.homeimages {
+  min-height: 70vh;
+  padding: 2em;
+  background: white;
+  color: black;
+  font-family: 'STIX Two Math', serif;
+  text-align: center;
+}
+.oneimage figure {
+  padding: 0;
+  margin: 0;
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.homeimages {
+  object-fit: cover; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+
+
